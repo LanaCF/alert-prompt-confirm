@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(226, 244, 190);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 150px auto;
+}
+
+.form {
+  margin: 25px;
+  padding: 15px 100px;
+  font-size: 21px;
+  color: white;
+  border-radius: 15px;
+  border: 3px solid rgba(72, 38, 4, 0.499);
+  background-color: green;;
+  transition: .3s;
+}
+
+.form:hover {
+  cursor: pointer;
+  background-color: yellowgreen;
+  transform: scale(1.1);
+}
